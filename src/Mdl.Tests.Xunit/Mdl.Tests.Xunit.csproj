@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <PackageVersion>1.0.1</PackageVersion>
+    <Title>Mdl.Tests.Xunit</Title>
+    <Authors>Metalaka</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/Metalaka/Mdl.Tests.Xunit</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Description>Mdl.Tests.Xunit</Description>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <LangVersion>latest</LangVersion>
+    <TargetFrameworks>net5.0;net6.0;netstandard2.0</TargetFrameworks>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mdl.Collections.Enumerators" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
